@@ -2,11 +2,15 @@ FROM python:3.10
 
 RUN mkdir /app
 WORKDIR /app
-RUN touch /var/log/scheduler.log
-RUN touch /var/log/update_win_loss.log
 COPY pyproject.toml /app
 
 COPY scheduler.py /app
+
+RUN apt-get update && apt-get install -y wget
+RUN wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | apt-key add -
+RUN echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+RUN apt-get update && apt-get install -y mongodb-org
+
 
 ENV PYTHONPATH=${PYTHONPATH}:${PWD}
 RUN pip install poetry
