@@ -1,0 +1,12 @@
+services:
+  schedule:
+    build: .
+    container_name: tgfp-job-scheduler
+    environment:
+      - DOPPLER_TOKEN=[redacted]
+      - DOPPLER_ENV=1
+      - TZ=US/Pacific
+    restart: unless-stopped
+    volumes:
+      - ./scripts:/app/scripts
+
