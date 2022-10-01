@@ -13,5 +13,5 @@ logging.warning("HELP")
 
 
 def load():
-    logging.error("YO")
+    logging.info("YO")
     schedule.every(5).seconds.do(log_something)

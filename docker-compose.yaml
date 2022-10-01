@@ -2,11 +2,13 @@ services:
   schedule:
     build: .
     container_name: tgfp-job-scheduler
+    command: "my_scheduler.py"
     environment:
-      - DOPPLER_TOKEN=[redacted]
+      - DOPPLER_TOKEN=dp.st.prd.3Taj2Q35uWm2Ug8q0foG3gLRASpBxDOrA2hnuhGrvK6
       - DOPPLER_ENV=1
       - TZ=US/Pacific
     restart: unless-stopped
     volumes:
       - ./scripts:/app/scripts
+      - ./my_scheduler.py:/app/my_scheduler.py
 
