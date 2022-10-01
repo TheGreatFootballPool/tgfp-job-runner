@@ -1,4 +1,4 @@
-# tgfp-job-scheduler
+# tgfp-job-runner
 Docker container for running scheduled jobs
 
 ## Description

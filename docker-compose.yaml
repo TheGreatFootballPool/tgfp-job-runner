@@ -1,7 +1,7 @@
 services:
   schedule:
     build: .
-    container_name: tgfp-job-scheduler
+    container_name: tgfp-job-runner
     command: "my_scheduler.py"
     environment:
       - DOPPLER_TOKEN=[redacted]
@@ -11,4 +11,3 @@ services:
     volumes:
       - ./scripts:/app/scripts
       - ./my_scheduler.py:/app/my_scheduler.py
-

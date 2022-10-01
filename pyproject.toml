@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "tgfp-job-scheduler"
-version = "3.2.1"
+name = "tgfp-job-runner"
+version = "1.0.0"
 description = "Scripts to help with the running of The Great Football Pool"
 authors = ["John Sturgeon <john.sturgeon@me.com>"]
 license = "MIT"
