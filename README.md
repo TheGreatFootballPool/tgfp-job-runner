@@ -20,9 +20,9 @@ The `load()` function will be called by the schedule on startup to load the sche
 see the `scripts` folder in this repo for an example implementation using sentry logging
 
 ### Build and Deploy instructions
-When updating to newer version of `tgfp-nfl`:
+When updating to newer version of `tgfp-nfl` or `tgfp-lib`:
 * `poetry cache clear pypi --all`
-* `poetry add tgfp-nfl:latest`
+* `poetry add tgfp-nfl:latest` or `poetry add tgfp-lib:latest`
 * `bump_version_and_publish.sh` 
   * https://github.com/johnsturgeon/tgfp-job-runner 
   * https://hub.docker.com/repository/docker/johnofcamas/tgfp-job-runner/general
