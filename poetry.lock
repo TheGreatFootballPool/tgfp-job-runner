@@ -467,7 +467,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "tgfp-lib"
-version = "1.15.1"
+version = "1.16.0"
 description = "The Great Football Pool Project"
 category = "main"
 optional = false
@@ -535,7 +535,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.5,<3.11"
-content-hash = "35a157a3cf33175171c47673a5658b26b290b8492bfb178d207053c7f43357b7"
+content-hash = "dcdc8cf8243bc3e31871fae20fe228420baac70cc40d240d83e9ccee53dec8d2"
 
 [metadata.files]
 aiohttp = [
@@ -1017,8 +1017,8 @@ sniffio = [
     {file = "sniffio-1.3.0.tar.gz", hash = "sha256:e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101"},
 ]
 tgfp-lib = [
-    {file = "tgfp_lib-1.15.1-py3-none-any.whl", hash = "sha256:b4e6a0c130c4735b1bbec53696b0ab8a85f62440b82eb9498132f450f4e43d87"},
-    {file = "tgfp_lib-1.15.1.tar.gz", hash = "sha256:591dba6ac3263116a5682e10d87705c32ffd0bb24bbd91f5a34edf29f3f7be68"},
+    {file = "tgfp_lib-1.16.0-py3-none-any.whl", hash = "sha256:1bd286dfac31531531d4a3497c970fcaf6bd04422e23b59e0464211636635c83"},
+    {file = "tgfp_lib-1.16.0.tar.gz", hash = "sha256:942be2cc3c4069d729b5a313b0633fc386e9403b6311487ce644d66440df7d1c"},
 ]
 tgfp-nfl = [
     {file = "tgfp_nfl-5.2.0-py3-none-any.whl", hash = "sha256:ada5eb816dcc8b541d92e705702ffeadd1bb5370771b0d89bfb9676c55717707"},
