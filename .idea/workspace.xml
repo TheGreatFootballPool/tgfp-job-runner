@@ -45,9 +45,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yaml.schedule: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -65,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker-compose.yaml.schedule: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -100,7 +113,7 @@
       <workItem from="1693249111594" duration="680000" />
       <workItem from="1693260368210" duration="599000" />
       <workItem from="1693414213609" duration="1132000" />
-      <workItem from="1693700958540" duration="1779000" />
+      <workItem from="1693700958540" duration="2728000" />
     </task>
     <servers />
   </component>
