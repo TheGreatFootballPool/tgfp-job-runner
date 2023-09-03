@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6202cf71-6d5a-48ef-b72c-6d405819a069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.pylintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tgfp-job-runner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tgfp-job-runner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/external.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jobs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +100,7 @@
       <workItem from="1693249111594" duration="680000" />
       <workItem from="1693260368210" duration="599000" />
       <workItem from="1693414213609" duration="1132000" />
-      <workItem from="1693700958540" duration="793000" />
+      <workItem from="1693700958540" duration="1779000" />
     </task>
     <servers />
   </component>
