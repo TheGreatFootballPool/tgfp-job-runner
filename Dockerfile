@@ -14,7 +14,6 @@ RUN echo "deb https://packages.doppler.com/public/cli/deb/debian any-version mai
 RUN apt-get update && apt-get install -y \
     apt-transport-https \
     ca-certificates \
-    doppler \
     gnupg \
     mongodb-org \
     vim
@@ -24,5 +23,5 @@ RUN pip install poetry
 RUN poetry config virtualenvs.create false
 RUN poetry install --only main
 
-ENTRYPOINT ["doppler", "run", "--", "python"]
+ENTRYPOINT ["python"]
 CMD ["scheduler.py"]

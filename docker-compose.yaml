@@ -1,11 +1,10 @@
+# This is an example docker compose file for using the image
 services:
   schedule:
     build: .
     container_name: tgfp-job-runner
     command: "my_scheduler.py"
     environment:
-      - DOPPLER_TOKEN=[redacted]
-      - DOPPLER_ENV=1
       - TZ=US/Pacific
     restart: unless-stopped
     volumes:
