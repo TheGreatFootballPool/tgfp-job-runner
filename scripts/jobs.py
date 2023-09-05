@@ -6,7 +6,6 @@ from rocketry import Rocketry
 
 
 logging.basicConfig(level=logging.INFO)
-logging.warning("New entry point")
 
 app = Rocketry()
 SCHEDULE = os.getenv('SCHEDULE')
