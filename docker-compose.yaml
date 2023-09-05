@@ -3,10 +3,9 @@ services:
   schedule:
     build: .
     container_name: tgfp-job-runner
-    command: "my_scheduler.py"
     environment:
       - TZ=US/Pacific
+      - SCHEDULE=every 5 seconds
     restart: unless-stopped
     volumes:
       - ./scripts:/app/scripts
-      - ./my_scheduler.py:/app/my_scheduler.py

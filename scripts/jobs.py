@@ -1,18 +1,21 @@
-"""
-   Runs all the jobs,
-   this is a placeholder and should be overwritten by mounting the scripts folder
-"""
+""" Schedule that will load and run whatever is included in 'jobs' """
 
+import os
 import logging
-import schedule
+from rocketry import Rocketry
 
 
-def log_something():
-    """ Sample method """
-    logging.info("This is a method that says 'log something'")
+logging.basicConfig(level=logging.INFO)
+logging.warning("New entry point")
+
+app = Rocketry()
+SCHEDULE = os.getenv('SCHEDULE')
 
 
-def load():
-    """ Loads the basic job"""
-    logging.info("YO")
-    schedule.every(5).seconds.do(log_something)
+@app.task(SCHEDULE)
+def do_something():
+    """ Doing something"""
+    logging.info("BING")
+
+if __name__ == '__main__':
+    app.run()
