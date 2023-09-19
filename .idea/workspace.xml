@@ -7,7 +7,6 @@
     <list default="true" id="6202cf71-6d5a-48ef-b72c-6d405819a069" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,8 @@
       <workItem from="1694120178093" duration="12117000" />
       <workItem from="1694622999977" duration="3080000" />
       <workItem from="1694716888604" duration="299000" />
-      <workItem from="1694782129402" duration="1235000" />
+      <workItem from="1694782129402" duration="2594000" />
+      <workItem from="1695153132561" duration="300000" />
     </task>
     <servers />
   </component>
