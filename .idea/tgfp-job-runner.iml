@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scripts" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (tgfp-job-runner-bTuxsnYp-py3.10)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Poetry (tgfp-job-runner) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

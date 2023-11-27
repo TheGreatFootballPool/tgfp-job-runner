@@ -1,21 +1,20 @@
 [tool.poetry]
 name = "tgfp-job-runner"
-version = "4.4.0"
+version = "4.5.0"
 description = "Scripts to help with the running of The Great Football Pool"
 authors = ["John Sturgeon <john.sturgeon@me.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.10.5,<3.11"
-tgfp-lib = "^2.1.1"
-tgfp-nfl = "^5.2.3"
-hikari = "^2.0.0.dev121"
-hikari-lightbulb = "^2.3.3"
+python = ">=3.11, <3.12"
+tgfp-lib = "^2.2.2"
+tgfp-nfl = "5.4.2"
 arrow = "^1.2.3"
 sentry-sdk = "^1.31.0"
-pylint = "^2.17.5"
+pylint = "^3.0.2"
 paho-mqtt = "^1.6.1"
-prefect = "^2.13.1"
+setuptools = "^69.0.2"
+prefect = "^2.14.6"
 
 [tool.poetry.dev-dependencies]
 
