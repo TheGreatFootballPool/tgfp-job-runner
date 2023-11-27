@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6202cf71-6d5a-48ef-b72c-6d405819a069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tgfp-job-runner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tgfp-job-runner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jobs.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +200,7 @@
       <workItem from="1700939269295" duration="402000" />
       <workItem from="1700939695570" duration="674000" />
       <workItem from="1701040927228" duration="1087000" />
-      <workItem from="1701042038933" duration="4287000" />
+      <workItem from="1701042038933" duration="7100000" />
     </task>
     <servers />
   </component>
