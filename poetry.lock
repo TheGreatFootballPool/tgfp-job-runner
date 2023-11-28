@@ -96,6 +96,20 @@ yarl = ">=1.0,<2.0"
 speedups = ["Brotli", "aiodns", "brotlicffi"]
 
 [[package]]
+name = "aiomqtt"
+version = "1.2.1"
+description = "The idiomatic asyncio MQTT client, wrapped around paho-mqtt"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "aiomqtt-1.2.1-py3-none-any.whl", hash = "sha256:3925b40b2b95b1905753d53ef3a9162e903cfab35ebe9647ab4d52e45ffb727f"},
+    {file = "aiomqtt-1.2.1.tar.gz", hash = "sha256:7582f4341f08ef7110dd9ab3a559454dc28ccda1eac502ff8f08a73b238ecede"},
+]
+
+[package.dependencies]
+paho-mqtt = ">=1.6.0,<2.0.0"
+
+[[package]]
 name = "aiosignal"
 version = "1.3.1"
 description = "aiosignal: a list of registered asynchronous callbacks"
@@ -3163,4 +3177,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11, <3.12"
-content-hash = "8600c4d87a969d84dea4d6a849aa73317534cefa9c49c04d31fa1d5da42b9fd6"
+content-hash = "48ac4b4dd3d1dc12cf2480e3577b96cbbeb2fd43c77fb177f6b3994856318f33"

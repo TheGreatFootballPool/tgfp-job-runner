@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tgfp-job-runner"
-version = "4.6.0"
+version = "4.7.0"
 description = "Scripts to help with the running of The Great Football Pool"
 authors = ["John Sturgeon <john.sturgeon@me.com>"]
 license = "MIT"
@@ -12,10 +12,10 @@ tgfp-nfl = "5.4.2"
 arrow = "^1.2.3"
 sentry-sdk = "^1.31.0"
 pylint = "^3.0.2"
-paho-mqtt = "^1.6.1"
 setuptools = "^69.0.2"
 prefect = "^2.14.6"
 discord-py = "^2.3.2"
+aiomqtt = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
 
