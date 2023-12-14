@@ -2763,13 +2763,13 @@ pytz = ">=2023.3.post1,<2024.0"
 
 [[package]]
 name = "tgfp-nfl"
-version = "5.4.2"
+version = "6.1.0"
 description = "Python extraction of NFL scores schedule data from abstracted data source"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "tgfp_nfl-5.4.2-py3-none-any.whl", hash = "sha256:73b1283b6741f73b61d5cb4702fa7ee88c474dc3ccfeac3256a82d8834074d8a"},
-    {file = "tgfp_nfl-5.4.2.tar.gz", hash = "sha256:a09f3c09df2436196ee6528e1bfa427edbee144fbdc44a8e4a045526c3355b7f"},
+    {file = "tgfp_nfl-6.1.0-py3-none-any.whl", hash = "sha256:e52e6c5accfba1820332658b7bb49b06a3ddb5c8ff40f8daf73dc14ba6881747"},
+    {file = "tgfp_nfl-6.1.0.tar.gz", hash = "sha256:f72a764ec544d5f0f47788af302f8e27b87b01a8234d58c88b3a89d849f51f97"},
 ]
 
 [package.dependencies]
@@ -3177,4 +3177,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11, <3.12"
-content-hash = "48ac4b4dd3d1dc12cf2480e3577b96cbbeb2fd43c77fb177f6b3994856318f33"
+content-hash = "e13365799056194bd3906d07f19240814a59a0b8d020b8a5c9c3a28a801e890c"
