@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "tgfp-job-runner"
-version = "4.10.0"
+version = "4.11.0"
 description = "Scripts to help with the running of The Great Football Pool"
 authors = ["John Sturgeon <john.sturgeon@me.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.11, <3.12"
-tgfp-lib = "^2.2.2"
-tgfp-nfl = "^6.1.0"
+tgfp-lib = "^2.3.0"
+tgfp-nfl = "^6.2.0"
 arrow = "^1.2.3"
 pylint = "^3.0.3"
 setuptools = "^69.0.2"
