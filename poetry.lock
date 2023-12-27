@@ -785,6 +785,20 @@ files = [
 graph = ["objgraph (>=1.7.2)"]
 
 [[package]]
+name = "discord"
+version = "2.3.2"
+description = "A mirror package for discord.py. Please install that instead."
+optional = false
+python-versions = "*"
+files = [
+    {file = "discord-2.3.2-py3-none-any.whl", hash = "sha256:d7959418799dd3b1e896685812d880169c193468b061b3431fa2a4664febd3da"},
+    {file = "discord-2.3.2.tar.gz", hash = "sha256:cc1ee2dbe6df218ca51519af355b97e87309f8230f58c7f34885feb8e8a76145"},
+]
+
+[package.dependencies]
+"discord.py" = ">=2.3.2"
+
+[[package]]
 name = "discord-py"
 version = "2.3.2"
 description = "A Python wrapper for the Discord API"
@@ -2997,13 +3011,13 @@ files = [
 
 [[package]]
 name = "setuptools"
-version = "69.0.2"
+version = "69.0.3"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "setuptools-69.0.2-py3-none-any.whl", hash = "sha256:1e8fdff6797d3865f37397be788a4e3cba233608e9b509382a2777d25ebde7f2"},
-    {file = "setuptools-69.0.2.tar.gz", hash = "sha256:735896e78a4742605974de002ac60562d286fa8051a7e2299445e8e8fbb01aa6"},
+    {file = "setuptools-69.0.3-py3-none-any.whl", hash = "sha256:385eb4edd9c9d5c17540511303e39a147ce2fc04bc55289c322b9e5904fe2c05"},
+    {file = "setuptools-69.0.3.tar.gz", hash = "sha256:be1af57fc409f93647f2e8e4573a142ed38724b8cdd389706a867bb4efcf1e78"},
 ]
 
 [package.extras]
@@ -3161,13 +3175,13 @@ files = [
 
 [[package]]
 name = "tgfp-lib"
-version = "2.3.0"
+version = "2.7.0"
 description = "The Great Football Pool Project"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "tgfp_lib-2.3.0-py3-none-any.whl", hash = "sha256:2619884308f8b13b1d53bf527859ab0e45279c6cc5e2eb5eb542796aa7ee82aa"},
-    {file = "tgfp_lib-2.3.0.tar.gz", hash = "sha256:8952f0b55e19c193d103aaa09c37bd59f5f5c299a274206aa032bc0dbd9a70a4"},
+    {file = "tgfp_lib-2.7.0-py3-none-any.whl", hash = "sha256:e1599e8aa0ed1841030337516300971a5e4e135d0554fcebdec0ac067066fc6e"},
+    {file = "tgfp_lib-2.7.0.tar.gz", hash = "sha256:046563e466a58e5eab1120b401d6c08e059bc24fe6d5cbb3a3c24f2207d097ca"},
 ]
 
 [package.dependencies]
@@ -3593,4 +3607,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11, <3.12"
-content-hash = "eedd3eabe2eaf09cda67db846a3e77accb38525202d499548662539b9395359a"
+content-hash = "b01fda965ef4df5234c77c05e2e759eac31403cd0a2f13d2b4bcd1430922822f"
