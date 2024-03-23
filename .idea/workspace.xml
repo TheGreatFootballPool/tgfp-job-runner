@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6202cf71-6d5a-48ef-b72c-6d405819a069" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -216,6 +218,11 @@
       <workItem from="1703633299740" duration="2499000" />
       <workItem from="1704731192808" duration="1256000" />
       <workItem from="1705020541456" duration="1404000" />
+      <workItem from="1707439327534" duration="1484000" />
+      <workItem from="1707609251864" duration="566000" />
+      <workItem from="1708210024893" duration="598000" />
+      <workItem from="1708214023502" duration="598000" />
+      <workItem from="1710700323124" duration="16000" />
     </task>
     <servers />
   </component>
